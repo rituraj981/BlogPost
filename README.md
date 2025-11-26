@@ -1,16 +1,95 @@
-# React + Vite
+# 📝 Blogging Website Frontend (React + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beautifully designed and fully responsive **Blogging Website Frontend** built using **React.js** and **Tailwind CSS**.  
+This project includes multiple UI components, pages, layouts, and image assets — providing a complete modern blog user interface ready to integrate with any backend (with Django will be updated soon).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🎨 **Modern UI with Tailwind CSS**
+- 🧩 **Reusable UI components** (Navbar, Footer, Blog Cards, Badge, Hero, etc.)
+- 📄 **Multiple Pages**
+  - Home Page
+  - Blog Detail Page
+  - Profile Page
+- 🖼️ Image assets included for UI design
+- 📱 Fully responsive layout
+- ⚡ Fast performance using React + Vite
+- 🔧 Clean folder structure for scalability
+- 🧱 Easy to integrate with APIs or backend systems
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src
+├── components
+│   └── ui
+│       ├── button.jsx
+│       └── switch.jsx
+├── images
+│   ├── design_vii.jpg
+│   ├── detailBanner.jpg
+│   ├── pic.jpg
+│   └── tech-globe.jpg
+├── lib
+├── pages
+│   ├── DetailPage.jsx
+│   ├── HomePage.jsx
+│   └── ProfilePage.jsx
+├── ui_components
+│   ├── AppLayout.jsx
+│   ├── Badge.jsx
+│   ├── BlogCard.jsx
+│   ├── BlogContainer.jsx
+│   ├── BlogWriter.jsx
+│   ├── CardFooter.jsx
+│   ├── Footer.jsx
+│   ├── Header.jsx
+│   ├── Hero.jsx
+│   ├── NavBar.jsx
+│   └── ResponsiveNavBar.jsx
+├── App.jsx
+├── index.css
+└── main.jsx
+```
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| **React.js** | Component-based user interface |
+| **Tailwind CSS** | Utility-first styling |
+| **Vite** | Fast development environment |
+| **JavaScript (ES6+)** | Logic & interactivity |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/rituraj981/BlogPost.git
+```
+
+### 2. Install dependencies
+```bash
+npm install
+```
+
+### 3. Start the development server
+```bash
+npm run dev
+```
+
+---
+
+## 👤 Author
+
+**Rituraj Pandey**  
+GitHub: https://github.com/rituraj981
+
